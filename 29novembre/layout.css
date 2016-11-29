@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color : teal
+}
+div {
+	border : 1px solid black;
+	background-color : #f1f1c1;
+	margin : 15px
+}
+h1, h3, h4 {
+	text-align: center;
+	color : navy;
+	font-family: monospace;
+}
+#title {
+	font-size: 30px;
+	color : navy;
+	font-family: monospace;
+	margin-top : 20px
+}
+#titolo {
+	overflow : auto;
+	height : 100px
+}
+#f1 {
+	float : right;
+	margin-top : 20px
+}
+#logo {
+	float : left
+}
+#corpo {
+	overflow : auto;
+	height : 500px
+}
+#indice {
+	float : left;
+	overflow : auto;
+	height : 500px;
+	margin-top : 0
+}
+#footer {
+	text-align : center;
+	position : fixed;
+	bottom: 0;
+    right: 0;
+    left : 0;
+    width: auto
+}
+ul {
+	list-style-type: none
+	
+}
+ul > :nth-child(odd) {
+			color : red
+		}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Esercizio HTML CSS E JS</title>
+<link rel = "stylesheet" type = "text/css" href = "layout.css">
+<script type="text/javascript" src = "layout.js"></script>
+</head>
+<body>
+	<div id = "titolo">
+		<img id = "logo" src="http://www.informaticalavoro.it/logo_aziende/3484.jpg" 
+			 width="100px" height ="100px">
+		<span id = "title"><b>La scelta</b></span>
+		<form id = "f1" action="javascript:benvenuto(user.value)">
+			<label>User</label>
+			<input type = "text" id = "user"><br>
+			<label>Password</label>
+			<input type = "password" id = "password"><br>
+			<input type = "submit" id = "submit1"><br>
+		</form>
+	</div>
+	<div id = "indice">
+		<h1>Indice</h1>
+		<h4>Elenco degli esercizi svolti negli ultimi giorni</h4>
+		<ol>
+			<li>28 novembre
+				<ul>
+					<li>primo</li>
+					<li>prova</li>
+					<li>tabella</li>
+					<li>stili</li>
+				</ul>
+			</li>
+			<li>29 novembre
+				<ul>
+					<li>posizione</li>
+					<li>form</li>
+					<li>layout</li>
+				</ul>
+			</li>
+		</ol>
+	</div>
+	<div id = "corpo">
+		<h1>Somma - Scelta</h1>
+		<form action="javascript:calcola(n1.value, n2.value, animale.value)">
+			<label>Primo numero</label>
+			<input type = "number" id = "n1"><br>
+			<label>Secondo numero</label>
+			<input type = "number" id = "n2"><br>
+			<label>Animale preferito</label>
+			<input type = "radio" name = "animale" id = animale value = "cane" checked>Cane
+			<input type = "radio" name = "animale" id = animale value = "cavallo">Cavallo<br>
+			<input type = "radio" name = "animale" id = animale value = "gatto">Gatto
+			<input type = "radio" name = "animale" id = animale value = "orso">Orso<br>
+			<input type = "reset">
+			<input type = "submit" id = "submit2">
+		</form>
+	</div>
+	<div id = "footer">
+		<h1>Piè di Pagina</h1>
+		
+	</div>
+</body>
+</html>

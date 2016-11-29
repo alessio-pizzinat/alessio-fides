@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color : lightgreen
+}
+.quad {
+	margin : auto;
+	background-color : #f1f1c1;
+	padding : 5%
+}
+#quadrato0 {
+	border : 3px solid black;
+	margin : auto;
+	padding : 15px;
+	overflow : auto;
+	background-color : lightgrey;
+	align : center
+}
+#quadrato1 {
+	border : 1px solid green;
+	float : left
+}
+#quadrato2 {
+	border : 1px solid red;
+	float : left;
+	margin : 0 25%
+}
+#quadrato3 {
+	border : 1px solid blue;
+	float : right;
+	cursor : wait
+}
+#bottone1 {
+	border : 3px groove green;
+	margin : 10px 42.5%;
+	padding : 15px;
+	background-color : #f1f1c1;
+	cursor : pointer
+}

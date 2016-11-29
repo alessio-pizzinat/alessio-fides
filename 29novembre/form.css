@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color : teal;
+}
+#field {
+	width : 42%;
+	background-color : #f1f1c1
+}
+#legend {
+	font-size : x-large;
+	background-color : white;
+	color : teal;
+	border : 1px solid black;
+	padding : 5px
+}
+.campo {
+	color : navy;
+	font-family : cursive;
+	font-size : medium;
+	margin : 15px 0
+}
+#c1 {
+	margin-top : 0
+}
+#cu {
+	margin-bottom : 0
+}
+input, select {
+	float : right
+}
+#submit {
+	margin : 15px 0
+}

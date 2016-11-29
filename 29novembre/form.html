@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Presentazione</title>
+		<link rel = "stylesheet" type = "text/css" href = "form.css">
+		<script type="text/javascript" src = "form.js"></script>
+	</head>
+	<body>
+		<div>
+			<form action = "javascript:stampa(nome.value, cognome.value)">
+				<fieldset id = "field">
+					<legend id = "legend">Informazioni personali:</legend>
+					<div id = "c1" class = "campo">
+						<label>Nome</label>
+						<input type = "text" id = "nome"><br>
+					</div>
+					<div class = "campo">
+						<label>Cognome</label>
+						<input type = "text" id = "cognome"><br>
+					<div class = "campo">
+					</div>
+						<label>Anno di nascita</label>
+						<input type = "date"><br>
+					</div>
+					<div class = "campo">
+						<label>Sesso</label>
+						<input type = "radio" name = "gender" value = "male" checked>M
+						<input type = "radio" name = "gender" value = "female">F<br>
+					</div>
+					<div class = "campo">
+						<label>Professione</label>
+						<select name = "professione">
+							<option value = "studente">Studente</option>
+							<option value = "impiegato">Impiegato</option>
+							<option value = "libero professionista">Libero Professionista</option>
+							<option value = "operaio">Operaio</option>
+							<option value = "altro">Altro</option>
+						</select><br>
+					</div>
+					<div class = "campo">
+						<label>Indirizzo</label>
+						<input type = "text"><br>
+					</div>
+					<div class = "campo">
+						<label>Email</label>
+						<input type = "email"><br>
+					</div>
+					<div id = "cu" class = "campo">
+						<label>Numero di telefono</label>
+						<input type = "tel"><br>
+					</div>
+				
+					<input type = "submit" id = "submit">
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
