@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+   <bean id="helloWorld" 
+   		 class="it.fides.alessio.primoesempio.ereditarieta.HelloWorld">
+       <property name="mess1" value="Hello World!"/>
+       <property name="mess2" value="Hello Second World!"/>
+   </bean>
+   <bean id="helloItalia"
+   		 class="it.fides.alessio.primoesempio.ereditarieta.HelloItalia"
+   		 parent="helloWorld">
+   		<property name="mess1" value="Hello Italia!"/>
+   		<property name="mess3" value="Ciao Italia!"/>
+   </bean>
+</beans>
