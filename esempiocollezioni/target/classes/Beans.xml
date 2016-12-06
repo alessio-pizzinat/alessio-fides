@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean 
+    	id="javaCollections" 
+    	class="it.fides.alessio.dicembre.esempiocollezioni.JavaCollections">
+    	<property name="addressList">
+    		<list>
+    			<value>Germania</value>
+    			<value>Francia</value>
+    			<value>Italia</value>
+    			<value>Italia</value>
+    		</list>
+    	</property>
+    	<property name="addressSet">
+    		<set>
+    			<value>Germania</value>
+    			<value>Francia</value>
+    			<value>Italia</value>
+    			<value>Italia</value>
+    		</set>
+    	</property>
+    	<property name="addressMap">
+    		<map>
+    			<entry key="1" value="Germania"/>
+    			<entry key="2" value="Francia"/>
+    			<entry key="3" value="Italia"/>
+    			<entry key="4" value="Italia"/>
+    		</map>
+    	</property>
+    	<property name="addressProps">
+    		<props>
+    			<prop key="one">Germania</prop>
+    			<prop key="two">Francia</prop>
+    			<prop key="three">Italia</prop>
+    			<prop key="four">Italia</prop>
+    		</props>
+    	</property>
+    </bean>
+</beans>
